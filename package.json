@@ -1,0 +1,16 @@
+{
+  "name": "electron-tray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": "https://github.com/robsoncruz/challenge-electron-tray",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.2.3"
+  }
+}
