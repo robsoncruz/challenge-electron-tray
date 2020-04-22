@@ -4,7 +4,7 @@ Aplicação feita em Electron usando o recurso do Tray e armazenamento com Elect
 # Funcionalidade
 Possibilita adicionar um atalho dos projetos e abrindo diretamento no VSCode
 
-# Como usar
+## Como usar
 git clone https://github.com/robsoncruz/challenge-electron-tray.git
 ~~~~
 npm start
