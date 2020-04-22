@@ -7,6 +7,5 @@ Possibilita adicionar um atalho dos projetos e abrindo diretamento no VSCode
 ## Como usar
 ~~~~
 git clone https://github.com/robsoncruz/challenge-electron-tray.git
-~~~~
 npm start
 ~~~~
