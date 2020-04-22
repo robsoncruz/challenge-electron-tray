@@ -12,10 +12,6 @@ const schema = {
     },
 };
 
-if (app.dock) {
-    app.dock.hide();
-}  
-
 const store = new Store({ schema });
 
 function render(tray = mainTray) {
@@ -85,7 +81,6 @@ function render(tray = mainTray) {
   }
   
   app.on('ready', () => {
-    mainTray = new Tray(resolve(__dirname, 'assets', 'iconTemplate.png'));
-  
+    mainTray = new Tray(resolve(__dirname, 'assets', 'iconTemplate.png'));  
     render(mainTray);
   });
